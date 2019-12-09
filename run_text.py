@@ -15,7 +15,7 @@ from NewUsers_info_class import *
 try:
     names = NewUsers_info('names.txt', 'is fun')
     with open(names.file_name, 'a') as file_to_write:
-        file_to_write.write(names.file_name + 'names.text' + '\n')
+        file_to_write.writelines(names.file_name + names.text + '\n')
 except FileNotFoundError as error:
     print('Check your file')
     print(error)
