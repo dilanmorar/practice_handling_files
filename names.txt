@@ -8,7 +8,4 @@ Greg
 Harry
 Ian
 Jim
-text
-names.txttext
-names.txtis fun
-names.file_nameis fun
+
